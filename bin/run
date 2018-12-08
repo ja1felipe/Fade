@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Iniciando o FADE!"
+python ../src/fade.py

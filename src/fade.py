@@ -17,10 +17,10 @@ def fade(img1, img2):
 			time.sleep(0.3)
 		if c == 40:
 			cv2.waitKey(0)
-			cv2.imwrite("output/fade{}.png".format(c), fade)
+			cv2.imwrite("../src/output/fade{}.png".format(c), fade)
 		else:
 			cv2.waitKey(1)
 			time.sleep(0.04)
-			cv2.imwrite("output/fade{}.png".format(c), fade)
+			cv2.imwrite("../src/output/fade{}.png".format(c), fade)
 
-fade("input/imagem1.jpg", "input/imagem2.jpg")
+fade("../src/input/imagem1.jpg", "../src/input/imagem2.jpg")
