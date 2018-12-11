@@ -1,4 +1,2 @@
 #!/bin/bash
-sudo apt install python-pip
-sudo apt install python-numpy
-pip install opencv-python
+pip install opencv-python --user
